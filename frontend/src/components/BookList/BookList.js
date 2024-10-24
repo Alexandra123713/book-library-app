@@ -55,7 +55,7 @@ const highlighthMatch = (text, filter) => {
                 <ul>
                     {filteredBooks.map((book, i)=>(
                         <li key={book.id}>
-                            <div className="book-info">{++i}. {highlighthMatch(book.title, titleFilter)} by <strong>{highlighthMatch(book.author, authorFilter)}</strong></div>
+                            <div className="book-info">{++i}. {highlighthMatch(book.title, titleFilter)} by <strong>{highlighthMatch(book.author, authorFilter)}</strong>{' '}({book.source})</div>
                         <div className="book-actions">
                             <span onClick={()=>handleToggleFavorite(book.id)}> 
                             {book.isFavorite ? (
