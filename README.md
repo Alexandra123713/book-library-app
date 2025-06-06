@@ -44,6 +44,38 @@ A complete web application that allows adding and displaying books, built with R
 - **CORS**
 - **Local JSON File (`books.json`)**
 
+# Local Run Guide
+
+This application has two components: frontend (React) and backend/api (Express.js).
+
+## Steps to run
+
+1. Clone the project and navigate to the main folder:
+
+   `git clone https://github.com/Alexandra123713/book-library-app.git`
+   `cd book-library-app`
+
+2. Install dependencies for backend and frontend:
+
+   `cd api`
+   `npm install`
+   `cd frontend`
+   `npm install`
+
+3. Start the backend server:
+
+   `cd api`
+   `npm start`
+
+   The server will be accessible at `http://localhost:4000`
+
+4. Open a new terminal and start the frontend:
+
+   `cd frontend`
+   `npm start`
+
+   The React application will be available at `http://localhost:3000`
+
 ## Project Status
 
 Fully functional and complete project. Ready for deployment.
@@ -95,6 +127,38 @@ O aplicație web completă care permite adăugarea și afișarea de cărți, fol
 - **Node.js + Express.js**
 - **CORS**
 - **Fișier JSON (`books.json`)**
+
+# Ghid de rulare locală
+
+Această aplicație are două componente: frontend (React) și backend/api (Express.js).
+
+## Pași de rulare
+
+1. Clonează proiectul și intră în folderul principal:
+
+   `git clone https://github.com/Alexandra123713/book-library-app.git`
+   `cd book-library-app`
+
+2. Instalează dependențele pentru backend și frontend:
+
+   `cd api`
+   `npm install`
+   `cd frontent`
+   `npm install`
+
+3. Pornește serverul backend:
+
+   `cd api`
+   `npm start`
+
+   Serverul va fi accesibil la `http://localhost:4000`
+
+4. Deschide un nou terminal, pornește frontend-ul:
+
+   `cd frontend`
+   `npm start`
+
+   Aplicația React va fi disponibilă la `http://localhost:3000`
 
 ## Statut
 
